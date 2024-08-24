@@ -1,0 +1,305 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+}
+
+body {font-family:'Merriweather';}
+
+body > div {
+	position:fixed;
+	left:0;
+	width:100%;
+	height:100%;
+	background:transparent center no-repeat;
+	background-size:cover;
+}
+
+.home-page{
+	top:0;
+	background-image:url(../img/home-alabama.png);
+	overflow:hidden;
+}
+
+.company-info {
+	top:0;		
+	background-image:url(../img/budding.png);
+	overflow:hidden;
+}
+
+.products {
+	top:0;
+	background-image:url(../img/products-light.png);
+}
+.news {
+	top:0;
+	overflow:hidden;
+	background-image:url(../img/news.png);
+}
+.fast-learn-1{
+	top:0;
+	background-image:url(../img/stylus.png);
+	overflow:hidden;
+}
+.fast-learn-1 .content-text{
+	width: 80%;
+}
+.yard-lady-1{
+	top:0;
+	background-image:url(../img/lawn.png);
+	overflow:hidden;
+}
+.yard-lady-1 .content-text{
+	width: 80%;
+}
+.fast-learn-2{
+	top:0;
+	background-image:url(../img/handwrite.png);
+	overflow:hidden;
+}
+.fast-learn-2 .content{
+	color: black;
+}
+.yard-lady-2{
+	top:0;
+	background-image:url(../img/lawn-care.png);
+	overflow:hidden;
+}
+.yard-lady-2 .content{
+	color: black;
+}
+.yard-lady-3{
+	top:0;
+	background-image:url(../img/header.jpg);
+	overflow:hidden;
+}
+
+.fast-learn-2 .content-text{
+	width: 65%;
+	margin: 0 auto;
+}
+.fast-learn-3{
+	top:0;
+	background-image:url(../img/gallery.png);
+	overflow:hidden;
+}
+.news-arrow{
+	cursor: pointer;
+	padding-top: 50px; 
+	font-size:72px; 
+	font-weight:bold; 
+	position:relative;
+}
+.news-arrow:hover{
+	color:#b9061e;
+}
+.contact {
+	top:0;
+	overflow:hidden;
+	background-image:url(../img/people-woman-coffee-meeting.png);
+}
+
+.box, .green-box {
+	position:absolute;
+	left:0;
+	height:100%;
+	width: 100%;
+	background:none;		
+}
+
+.green-box{
+	background:#0f0;
+}
+
+p {margin:1em 0;}
+
+.slide{
+	display: table;
+}
+
+.content{
+	display:table-cell;
+	vertical-align: middle;
+	color:white;
+	width: 100%;
+	text-align: center;
+}
+.content-text{
+	width: 50%;
+	margin:0 auto;
+	font-weight: 100;
+}
+.info-btn{
+	padding:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgba(255,255,255,0.8);
+	border: 2px solid white;
+	border-radius: 25px;
+	font-family: 'Merriweather';
+	font-size:20px;
+	cursor: pointer;
+}
+.company-info .content-text{
+	width: 80%;
+}
+.news .content-text{
+	width: 80%;
+}
+.products hr{
+	border:1px solid black;
+}
+.products .content, .contact .content, .news .content{
+	color:black;
+}
+.products .content-text{		
+	width: 80%;
+}
+.image-holder{
+	cursor: pointer;
+	margin: 10px;
+	display: inline-block;
+	height: 300px;
+	width:300px;
+	border: 10px solid black;
+	background: rgba(0,0,0,0.6);
+	border-radius: 300px;		
+	overflow: hidden;
+	opacity:0.8;
+}
+.image-desc, .image-holder-container{
+	height: 100%;
+	width: 100%;	
+}
+.image-holder-container{
+	border-radius: 300px;		
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.image-desc{
+	background: rgba(0,0,0,0.9);
+	position: relative;
+	top:1%;
+}
+.image-desc-text{
+	color: white;
+	padding: 20px;
+}
+.move-goal .image-holder-container{ 
+	background-image: url(../img/1j.jpg);
+}
+.fast-learn .image-holder-container{ 
+	background-image: url(../img/3b-l.png);
+}
+.yard-lady .image-holder-container{ 
+	background-image: url(../img/2b.jpg);
+}
+.fast-learn-img1 .image-holder-container{ 
+	background-image: url(../img/1c.jpg);
+}
+.fast-learn-img2 .image-holder-container{ 
+	background-image: url(../img/2c.jpg);
+}
+.fast-learn-img3 .image-holder-container{ 
+	background-image: url(../img/3c.jpg);
+}
+.fast-learn-img4 .image-holder-container{ 
+	background-image: url(../img/4c.jpg);
+}
+.fast-learn-img5 .image-holder-container{ 
+	background-image: url(../img/5c.jpg);
+}
+.yard-lady-img1 .image-holder-container{ 
+	background-image: url(../img/trim1.png);
+}
+.yard-lady-img2 .image-holder-container{ 
+	background-image: url(../img/trim2.jpg);
+}
+.yard-lady-img3 .image-holder-container{ 
+	background-image: url(../img/trim3.jpg);
+}
+.yard-lady-img4 .image-holder-container{ 
+	background-image: url(../img/trim4.jpg);
+}
+.yard-lady-img5 .image-holder-container{ 
+	background-image: url(../img/trim5.jpg);
+}
+.yard-lady-img6 .image-holder-container{ 
+	background-image: url(../img/trim6.jpg);
+}
+.footer .pull-right{
+	margin-top: 0px;
+}
+q{
+	font-style: italic;
+}
+.news-item{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top:250px;
+}
+.news-container{
+	position: relative;
+	margin: 0 auto; 
+	width: 60%;
+	height: 200px;
+	overflow: hidden;
+}
+.product-info-container{
+	margin: 0 auto;
+	width: 80%;
+	height: 300px;
+}
+.product-left{
+	height: 100%;
+	width: 42%;
+	float: left;
+}
+.product-right{
+	height: 100%;
+	width: 58%;
+	float: right;	
+	text-align: center;
+}
+.fast-learn-3 .image-holder, .yard-lady-3 .image-holder{
+	opacity: 1;
+}
+.fast-learn-1 .info-btn{
+	border:2px solid black;
+}
+.yard-lady-3 .content{
+	color: white;
+}
+.yard-lady-3 .content-text{
+	width:100%;
+}
+.image-desc-text{
+	font-size:14px;
+}
+.yard-lady-3{
+
+}
+
+.car-race .image-holder-container{ 
+	background-image: url(../img/virtual-reality-edit2.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.product-link{
+	text-decoration: none;
+}
+
+@media (min-width:601px)  {
+	.image-holder{
+		width: 250px;
+		height: 250px;
+	}
+}

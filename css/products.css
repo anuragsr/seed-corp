@@ -1,0 +1,124 @@
+body{
+	overflow-x: hidden;
+}
+
+.header, .footer{
+	z-index: 1;
+	height: 50px;
+}
+.footer{
+	height:35px;
+}
+.pull-right{
+	margin-top: 0;
+}
+.footer .pull-right{
+	margin-top: 5px;
+	font-family:'Montserrat';
+}
+.pull-left{
+	margin-top: -10px;
+}
+
+.head-title{
+	font-family: 'Merriweather';
+	text-align:center; 
+	width:100%; 
+	height:auto; 
+	padding:10px;
+}
+
+#hexGrid {
+	margin-top:50px;
+    overflow: hidden;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    margin: 0 auto;
+    padding:100px 0;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 15px;
+    background: url(../img/product-bg.png);
+    background-size: cover;
+}
+
+.image-holder{
+	cursor: pointer;
+	margin: 10px;
+	display: inline-block;
+	height: 300px;
+	width:300px;
+	border: 10px solid black;
+	background: rgba(0,0,0,0.6);
+	border-radius: 300px;		
+	overflow: hidden;
+	opacity:0.8;
+}
+.image-desc, .image-holder-container{
+	height: 100%;
+	width: 100%;	
+}
+.image-holder-container{
+	border-radius: 300px;		
+	background-color: white;
+}
+.image-desc{
+	background: rgba(0,0,0,0.9);
+	position: relative;
+	top:1%;
+}
+.image-desc-text{
+	color: white;
+	padding: 20px;
+}
+
+.product-container{
+	width: 98%;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.product-container .image-holder{
+	width: 350px;
+	height: 350px;
+	border-radius: 350px;
+}
+
+.move-goal .image-holder-container{ 
+	background-image: url(../img/1j.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.yard-lady .image-holder-container{ 
+	background-image: url(../img/2b.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.car-race .image-holder-container{ 
+	background-image: url(../img/virtual-reality-edit2.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.fast-learn .image-holder-container{ 
+	background-image: url(../img/3b-l.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.basket-ball .image-holder-container{ 
+	background-image: url(../img/basketball1.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}
+.stylus-screen .image-holder-container{ 
+	background-image: url(../img/stylus-on-a-screen.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	background-size: contain;
+}

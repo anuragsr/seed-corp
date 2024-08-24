@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../font/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header, .footer{		
+	height: auto;
+    background: #ddd;
+    box-shadow: 0px 0px 10px 0px #ddd;
+    padding: 20px;
+    font-family: 'Montserrat';
+    overflow: hidden;
+	position:fixed;
+    left: 0;
+    width: 100%;
+}
+.header{		
+	top:0;
+}
+
+.footer{
+    bottom: 0;    
+    z-index: 999;
+}
+.clearfix:before,
+.clearfix:after {
+  	content:"";
+  	display:table;
+}
+.clearfix:after {
+  	clear:both;
+}
+.clearfix {
+	zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+.pull-left, .pull-right{
+	width:40%;
+	float:left;
+}
+.pull-right{
+	text-align: right;
+	margin-right: 50px;
+	float:right;
+	margin-top: 10px;
+}
+.footer .pull-right{
+	margin-top: 25px;
+}
+.links a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	margin: 5px;
+}
